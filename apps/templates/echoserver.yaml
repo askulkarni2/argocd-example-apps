@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: echoserver
-  namespace: team-ramen
+  namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
